@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_right"
+        tools:text="LOL"
+        android:textColor="#ffffff"
+        android:paddingRight="5dp"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timestamp_right"
+        android:layout_below="@id/text_view_right"
+        android:paddingRight="5dp"
+        tools:text="Date"
+        android:textSize="10sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/polarity_symbol"
+        android:layout_below="@id/text_view_left"
+        android:layout_toLeftOf="@id/timestamp_right"
+        android:layout_toStartOf="@id/timestamp_right"
+        tools:text="+"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

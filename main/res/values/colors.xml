@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorField">#CCCCCC</color>
+    <color name="btnRed">#FF0000</color>
+    <color name="btnYellow">#FFFF00</color>
+    <color name="btnBlue">#0000FF</color>
+    <color name="btnGreen">#00FF00</color>
+    <color name="btnPurple">#660066</color>
+    <color name="btnPink">#FF00FF</color>
+    <color name="btnOrange">#FF9900</color>
+</resources>
